@@ -1,12 +1,12 @@
-# Olist 배송 지연 분석 및 일별 주문량 예측
+# Olist 고객 반응·주문 흐름 분석
 
-Olist 브라질 이커머스 공개 데이터로 진행한 두 가지 분석
+Olist 브라질 이커머스 공개 데이터로 고객이 배송 경험에 어떻게 반응하는지, 주문이 어떤 흐름으로 움직이는지 분석
 
-1. 배송 지연이 리뷰 점수, 재구매율에 미치는 영향
-2. 일별 주문량 예측과 예측 오차 분석
+1. 배송 지연에 대한 고객 반응: 배송이 늦어진 고객이 리뷰로만 불만을 표현하는지, 다시 구매하지 않는지 확인
+2. 일별 주문량 흐름과 예측: 요일·추세·감소 구간을 파악하고 일별 주문량 예측
 
-- 데이터: [Olist Brazilian E-Commerce Public Dataset (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- 도구: SQLite, Python(pandas, scipy, scikit-learn), Tableau
+데이터: Olist Brazilian E-Commerce Public Dataset (Kaggle)
+도구: SQLite, Python(pandas, scipy, scikit-learn), Tableau
 
 ---
 
